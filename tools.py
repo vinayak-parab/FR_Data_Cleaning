@@ -164,9 +164,9 @@ def delete_dir_with_no_img(root_dir):
 
 
 if __name__ == "__main__":
-    root_dir = r"D:\BDBA\SEMESTER_3\datasets\CASIA-WebFace\Casia-Webface-customized-aligned"
-    output_dir = r"D:\BDBA\SEMESTER_3\datasets\CASIA-WebFace\Casia-Webface-cust-aligned-removed"
-    pb_path = r"C:\Users\Dell\PycharmProjects\JohnnyAI\source_code_files\Model_20180402-114759\20180402-114759.pb"
+    root_dir = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Casia_webface_classes_25"
+    output_dir = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Casia_webface_classes_cleaned"
+    pb_path = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Model_20180402-114759\20180402-114759.pb"
     node_dict = {'input': 'input:0',
                  'phase_train': 'phase_train:0',
                  'embeddings': 'embeddings:0',
