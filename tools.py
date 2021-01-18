@@ -163,10 +163,23 @@ def delete_dir_with_no_img(root_dir):
 
 
 
+# if __name__ == "__main__":
+#     root_dir = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Casia_webface_classes_25"
+#     output_dir = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Casia_webface_classes_cleaned"
+#     pb_path = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Model_20180402-114759\20180402-114759.pb"
+#     node_dict = {'input': 'input:0',
+#                  'phase_train': 'phase_train:0',
+#                  'embeddings': 'embeddings:0',
+#                  }
+#     dataset_range = [0,100]
+#     img_removal_by_embed(root_dir, output_dir, pb_path, node_dict, threshold=1.25, type='move', GPU_ratio=0.25,
+#                          dataset_range=dataset_range)
+
+
 if __name__ == "__main__":
-    root_dir = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Casia_webface_classes_25"
-    output_dir = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Casia_webface_classes_cleaned"
-    pb_path = r"C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Model_20180402-114759\20180402-114759.pb"
+    root_dir = r"Casia_webface_classes_aligned"
+    output_dir = r"Casia_webface_classes_25_cleaned"
+    pb_path = r"Model_20180402-114759\20180402-114759.pb"
     node_dict = {'input': 'input:0',
                  'phase_train': 'phase_train:0',
                  'embeddings': 'embeddings:0',
@@ -174,7 +187,6 @@ if __name__ == "__main__":
     dataset_range = [0,100]
     img_removal_by_embed(root_dir, output_dir, pb_path, node_dict, threshold=1.25, type='move', GPU_ratio=0.25,
                          dataset_range=dataset_range)
-
     # ----check_path_length
     # root_dir = r"D:\CASIA\CASIA-WebFace_aligned"
     # output_dir = r"D:\CASIA\mislabeled"
