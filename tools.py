@@ -179,7 +179,7 @@ def delete_dir_with_no_img(root_dir):
 if __name__ == "__main__":
     root_dir = r"Casia_webface_classes_aligned"
     output_dir = r"Casia_webface_classes_25_cleaned"
-    pb_path = r"Model_20180402-114759\20180402-114759.pb"
+    pb_path = r"Model_20180402-114759/20180402-114759.pb"
     node_dict = {'input': 'input:0',
                  'phase_train': 'phase_train:0',
                  'embeddings': 'embeddings:0',
