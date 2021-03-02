@@ -1,0 +1,7 @@
+arguments: align_dataset_mtcnn.py C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Casia_webface_classes_25_raw C:\Users\Dell\PycharmProjects\JohnnyAI\FR_Data_Cleaning\Casia_webface_classes_aligned --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25
+--------------------
+tensorflow version: 1.7.0
+--------------------
+git hash: b'HEAD'
+--------------------
+b''

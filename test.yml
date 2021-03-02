@@ -1,0 +1,38 @@
+name: myenv_clone2
+channels:
+  - defaults
+dependencies:
+  - certifi=2020.12.5
+  - pip=20.3.3
+  - python=3.6.12
+  - setuptools=51.1.2
+  - sqlite=3.33.0
+  - wheel=0.36.2
+  - zlib=1.2.11
+  - pip:
+    - absl-py==0.11.0
+    - astor==0.8.1
+    - bleach==1.5.0
+    - gast==0.4.0
+    - grpcio==1.34.1
+    - html5lib==0.9999999
+    - importlib-metadata==3.4.0
+    - joblib==1.0.0
+    - markdown==3.3.3
+    - numpy==1.14.3
+    - opencv-python==4.3.0.36
+    - pillow==5.1.0
+    - protobuf==3.12.2
+    - scikit-learn==0.24.0
+    - scipy==1.1.0
+    - six==1.15.0
+    - sklearn==0.0
+    - tensorboard==1.7.0
+    - tensorflow==1.7.0
+    - termcolor==1.1.0
+    - threadpoolctl==2.1.0
+    - typing-extensions==3.7.4.3
+    - werkzeug==1.0.1
+    - zipp==3.4.0
+prefix: C:\Users\Dell\anaconda3\envs\myenv_clone2
+
